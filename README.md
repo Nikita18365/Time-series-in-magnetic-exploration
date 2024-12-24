@@ -3,6 +3,8 @@ Forecasting the time series of measurements of the magnetovariation station at t
 
 In order to perform the task of predicting the time series of magnetometric measurements from a variation station (MVS), it is necessary to analyze the available data. 
 
+Qualitative behavior of the magnetic field in the work area: in the morning and evening, geomagnetic activity is minimal and corresponds to the level of the normal magnetic field, the peak of activity is reached at lunchtime (at 13:00-16:00). The amplitudes of anomalies can reach up to 30 NT, and in magnetic storms up to 100 NT.
+
 Among the available data, there are recordings from the MVS for 3 days and the qualitative behavior of the magnetovariance field. We will use the ARIMA model as a forecasting model. 
 
 The magnetometer recorded data on magnetic field variations for three days, including the following attributes: date, time, and magnetic field value in nanotesles (nTl). 
